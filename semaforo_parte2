@@ -1,0 +1,26 @@
+void EncenderLedAmarillo3()
+{
+	digitalWrite(Led10, HIGH); 
+}
+
+void EncenderLedRojo1()
+{
+	digitalWrite(Led3, HIGH);
+}
+
+void EncenderLedRojo2()
+{
+	digitalWrite(Led7, HIGH);
+}
+
+void EncenderLedRojo3()
+{
+	digitalWrite(Led11, HIGH); 
+}
+
+
+void EncenderLedAzul1()
+{
+	digitalWrite(Led4, HIGH);
+}
+
