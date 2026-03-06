@@ -1,0 +1,17 @@
+
+void Fase3(){
+  	ApagarTodosLeds();
+  
+  	// Estado
+	EncenderLedVerde3();
+  	EncenderLedRojo1();
+  	EncenderLedRojo2();
+  
+  	// Tiempo de espera
+  	delay(10000);
+  
+  	// Luz amarilla
+  	EncenderLedAmarillo3();
+  	digitalWrite(Led9, LOW);
+  	delay(3000);
+}
