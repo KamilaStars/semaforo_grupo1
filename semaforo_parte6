@@ -1,0 +1,32 @@
+void Fase4(){
+  	ApagarTodosLeds();
+  
+  	// Estado
+	EncenderLedAzul3();
+  	EncenderLedRojo1();
+  	EncenderLedRojo2();
+  	EncenderLedRojo3();
+  
+  	// Tiempo de espera
+  	delay(10000);
+  
+  	// Parpadeo
+	Parpadear1Led(Led12, 3);
+}
+
+// Ciclo de vida del arduino
+
+void setup()
+{
+  for (int i = 0; i <= 13; i++) {
+    pinMode(i, OUTPUT);
+  }
+}
+
+void loop()
+{
+  Fase1();
+  Fase2();
+  Fase3();
+  Fase4();
+}
